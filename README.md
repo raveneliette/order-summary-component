@@ -22,6 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
+These are the screenshot of my solution
+
 ![](./images/desktop-screenshot.png)
 ![](./images/mobile-screenshot.png)
 
