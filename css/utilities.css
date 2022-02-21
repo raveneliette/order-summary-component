@@ -1,0 +1,49 @@
+.card {
+    background-color: var(--light-color);
+    border-radius: 20px;
+    -webkit-box-shadow: 0 25px 30px -6px hsl(225, 75%, 86%);
+       -moz-box-shadow: 0 25px 30px -6px hsl(225, 75%, 86%);
+            box-shadow: 0 25px 30px -6px hsl(225, 75%, 86%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 375px;
+    animation: slideInFromLeft 1.8s ease-in-out;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    color: var(--light-color);
+    font-weight: 700;
+    padding: 17px 0;
+    font-size: 12.5px;
+    -webkit-box-shadow: 0 25px 30px -6px hsl(245, 75%, 86%);
+       -moz-box-shadow: 0 25px 30px -6px hsl(245, 75%, 86%);
+            box-shadow: 0 25px 30px -6px hsl(245, 75%, 86%);
+}
+
+.btn:hover {
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:active {
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.98);
+    -webkit-box-shadow: 0 10px 10px -1px hsl(245, 75%, 86%);
+       -moz-box-shadow: 0 10px 10px -1px hsl(245, 75%, 86%);
+            box-shadow: 0 10px 10px -1px hsl(245, 75%, 86%);
+}

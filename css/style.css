@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --primary-color: hsl(225, 100%, 94%); /* Pale blue */
+    --secondary-color: hsl(245, 75%, 52%); /* Bright Blue */
+    --dark-color: hsl(223, 47%, 23%); /* Dark blue */
+    --light-color: hsl(225, 100%, 98%); /* Very pale blue */
+    --light-color-two: hsl(224, 23%, 55%); /* Desaturated blue */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles */
+body {
+    background-color: var(--primary-color);
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    color: var(--light-color-two);
+    font-size: 16px;
+}
+
+/* Main Container */
+.main-container img {
+    width: 100%;
+}
+
+.main-container .top-img {
+    border-radius: 20px 20px 0 0;
+}
+
+.main-container h1 {
+    color: var(--dark-color);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 30px 0 12px 0;
+}
+
+.main-container #main-paragraph {
+    font-size: 13.6px;
+    line-height: 1.35rem;
+    margin: 0 33px;
+    padding: 0 7px;
+}
+
+/* Payment Section */
+.payment-section {
+    margin: 15px 38px 38px 38px;
+}
+
+.payment-section .btn,
+.payment-section .cancel-link {
+    display: block;
+    text-decoration: none;
+}
+
+.payment-section .btn {
+    margin: 25px 0 25px 0;
+}
+
+.payment-section p a {
+    color: var(--light-color-two);
+    font-weight: 700;
+}
+
+.payment-section .cancel-link {
+    font-size: 12.6px;
+    font-weight: 900;
+}
+
+.payment-section .cancel-link:hover {
+    color: var(--dark-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.payment-section .cancel-link:active {
+    color: var(--light-color-two);
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.98);
+}
+
+/* Gray Background Container */
+.gray-bg-container {
+    background-color: hsl(225, 70%, 96%);
+    border-radius: 12px;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.gray-bg-container .music-icon {
+    margin-right: 16px;
+    width: 44px;
+}
+
+.gray-bg-container .change-link {
+    font-size: 12px;
+    font-weight: 900;
+    color: hsl(245, 45%, 52%);
+}
+
+.gray-bg-container .change-link:hover {
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+}
+
+.gray-bg-container .change-link:active {
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Plan Container */
+.plan-container .annual-plan {
+    flex-direction: column;
+}
+
+.plan-container .annual-plan h2 {
+    color: var(--dark-color);
+    font-size: 13.3px;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+
+.plan-container .annual-plan #money {
+    font-size: 13.3px;
+    font-weight: 500;
+}
+
+/* Animations */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-500%) translateY(-500%); /* coming from the top left */
+        opacity: 0.3;
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: translate(-50%, -50%); /* end up in zero just its normal position */
+    }
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+    body {
+        background-image: url("../images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-container h1 {
+        margin: 30px 0 20px 0;
+    }
+
+    .main-container #main-paragraph {
+        font-size: 16px;
+        line-height: 1.7rem;
+        margin: 0 42px;
+        padding: 0 7px;
+    }
+
+    .payment-section {
+        margin: 28px 30px 39px 30px;
+    }
+
+    .gray-bg-container {
+        padding: 20px 20px;
+    }
+
+    .gray-bg-container .music-icon {
+        margin-right: 20px;
+        width: 55px;
+    }
+
+    .plan-container .annual-plan h2 {
+        font-size: 15.8px;
+        margin-bottom: 4px;
+    }
+
+    .plan-container .annual-plan #money {
+        font-size: 15.8px;
+    }
+
+    .gray-bg-container .change-link {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 16.6px;
+    }
+
+    .payment-section .btn {
+        margin: 28px 0 28px 0;
+    }
+
+    .payment-section .cancel-link {
+        font-size: 16.4px;
+    }
+}
