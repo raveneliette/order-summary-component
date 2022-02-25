@@ -145,11 +145,11 @@ p {
     }
 
     50% {
-        transform: scale(1.5);
+        transform: scale(2);
     }
 
     100% {
-        transform: translate(-50%, -50%); /* end up in zero just its normal position */
+        transform: scale(1);/* end up in zero just its normal position */
     }
 }
 
