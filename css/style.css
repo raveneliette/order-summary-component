@@ -20,6 +20,10 @@ body {
     background-image: url("../images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
 }
 
