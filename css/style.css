@@ -29,7 +29,7 @@ body {
 
 p {
     color: var(--light-color-two);
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 /* Main Container */
@@ -38,26 +38,26 @@ p {
 }
 
 .main-container .top-img {
-    border-radius: 20px 20px 0 0;
+    border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .main-container h1 {
     color: var(--dark-color);
     font-size: 1.5rem;
     font-weight: 900;
-    margin: 30px 0 12px 0;
+    margin: 1.875rem 0 0.75rem 0;
 }
 
 .main-container #main-paragraph {
-    font-size: 13.6px;
+    font-size: 0.85rem;
     line-height: 1.35rem;
-    margin: 0 33px;
-    padding: 0 7px;
+    margin: 0 2.063rem;
+    padding: 0 0.438rem;
 }
 
 /* Payment Section */
 .payment-section {
-    margin: 15px 38px 38px 38px;
+    margin: 0.938rem 2.375rem 2.375rem 2.375rem;
 }
 
 .payment-section .btn,
@@ -67,7 +67,7 @@ p {
 }
 
 .payment-section .btn {
-    margin: 25px 0 25px 0;
+    margin: 1.563rem 0 1.563rem 0;
 }
 
 .payment-section p a {
@@ -76,7 +76,7 @@ p {
 }
 
 .payment-section .cancel-link {
-    font-size: 12.6px;
+    font-size: 0.788rem;
     font-weight: 900;
 }
 
@@ -94,18 +94,18 @@ p {
 /* Gray Background Container */
 .gray-bg-container {
     background-color: hsl(225, 70%, 96%);
-    border-radius: 12px;
+    border-radius: 0.75rem;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 1.25rem 1.25rem;
 }
 
 .gray-bg-container .music-icon {
-    margin-right: 16px;
+    margin-right: 1rem;
     width: 44px;
 }
 
 .gray-bg-container .change-link {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 900;
     color: hsl(245, 45%, 52%);
 }
@@ -127,13 +127,13 @@ p {
 
 .plan-container .annual-plan h2 {
     color: var(--dark-color);
-    font-size: 13.3px;
+    font-size: 0.831rem;
     font-weight: 900;
-    margin-bottom: 3px;
+    margin-bottom: 0.188rem;
 }
 
 .plan-container .annual-plan #money {
-    font-size: 13.3px;
+    font-size: 0.831rem;
     font-weight: 500;
 }
 
@@ -162,51 +162,51 @@ p {
     }
 
     .main-container h1 {
-        margin: 30px 0 20px 0;
+        margin: 1.875rem 0 1.25rem 0;
     }
 
     .main-container #main-paragraph {
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 1.7rem;
-        margin: 0 42px;
-        padding: 0 7px;
+        margin: 0 2.625rem;
+        padding: 0 0.438rem;
     }
 
     .payment-section {
-        margin: 28px 30px 39px 30px;
+        margin: 1.75rem 1.875rem 2.438rem 1.875rem;
     }
 
     .gray-bg-container {
-        padding: 20px 20px;
+        padding: 1.25rem 1.25rem;
     }
 
     .gray-bg-container .music-icon {
-        margin-right: 20px;
+        margin-right: 1.25rem;
         width: 55px;
     }
 
     .plan-container .annual-plan h2 {
-        font-size: 15.8px;
-        margin-bottom: 4px;
+        font-size: 0.988rem;
+        margin-bottom: 0.25rem;
     }
 
     .plan-container .annual-plan #money {
-        font-size: 15.8px;
+        font-size: 0.988rem;
     }
 
     .gray-bg-container .change-link {
-        font-size: 15px;
+        font-size: 0.938rem;
     }
 
     .btn {
-        font-size: 16.6px;
+        font-size: 1.038rem;
     }
 
     .payment-section .btn {
-        margin: 28px 0 28px 0;
+        margin: 1.75rem 0 1.75rem 0;
     }
 
     .payment-section .cancel-link {
-        font-size: 16.4px;
+        font-size: 1.025rem;
     }
 }
