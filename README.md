@@ -24,8 +24,8 @@ Users should be able to:
 
 These are the screenshot of my solution
 
-![](./images/desktop-screenshot.png)
-![](./images/mobile-screenshot.png)
+![](./images/desktop-view.png)
+![](./images/mobile-view.png)
 
 ### Links
 
